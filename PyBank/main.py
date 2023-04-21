@@ -3,9 +3,8 @@ import csv
 import numpy as np
 
 # set csv file pointer
-curDir = os.path.dirname(os.path.realpath("__file__"))
-print(curDir)
-budget_csv = os.path.join(curDir,'Resources','budget_data.csv') 
+#curDir = os.path.join(os.getcwd()) # os.path.dirname(os.path.realpath("__file__"))
+budget_csv = os.path.join(os.getcwd(),'Resources','budget_data.csv') 
 
 # set variables
 monthTotal=0
